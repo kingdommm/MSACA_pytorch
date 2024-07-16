@@ -87,23 +87,19 @@ if __name__ == '__main__':
     gossip_test_image_matrix = np.array(gossip_test_image_matrix)
     gossip_test_labels = np.array(gossip_test_labels)
 
-    print('gossip_train text: ', gossip_train_text_matrix.shape)
     print('gossip_train text embeddings: ', gossip_train_embeddings.shape)
     print('gossip_train image embeddings: ', gossip_train_image_matrix.shape)
     print('gossip_train labels: ', gossip_train_labels.shape)
 
-    print('gossip_test text: ', gossip_test_text_matrix.shape)
     print('gossip_test text embeddings: ', gossip_test_embeddings.shape)
     print('gossip_test image embeddings: ', gossip_test_image_matrix.shape)
     print('gossip_test labels: ', gossip_test_labels.shape)
 
     matrix_save_dir = '/XXXX/gossipcop_dataset_3scale'
-    np.save('{}/gossip_train_text'.format(matrix_save_dir), gossip_train_text_matrix)
     np.save('{}/gossip_train_text_embed'.format(matrix_save_dir), gossip_train_embeddings)
     np.save('{}/gossip_train_image_embed'.format(matrix_save_dir), gossip_train_image_matrix)
     np.save('{}/gossip_train_label'.format(matrix_save_dir), gossip_train_labels)
 
-    np.save('{}/gossip_test_text'.format(matrix_save_dir), gossip_test_text_matrix)
     np.save('{}/gossip_test_text_embed'.format(matrix_save_dir), gossip_test_embeddings)
     np.save('{}/gossip_test_image_embed'.format(matrix_save_dir), gossip_test_image_matrix)
     np.save('{}/gossip_test_label'.format(matrix_save_dir), gossip_test_labels)
