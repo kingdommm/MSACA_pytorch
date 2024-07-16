@@ -97,7 +97,7 @@ if __name__ == '__main__':
     print('gossip_test image embeddings: ', gossip_test_image_matrix.shape)
     print('gossip_test labels: ', gossip_test_labels.shape)
 
-    matrix_save_dir = '/home/ubuntu2204/Desktop/My_Fake_News_Detection/gossipcop_dataset_3scale'
+    matrix_save_dir = '/XXXX/gossipcop_dataset_3scale'
     np.save('{}/gossip_train_text'.format(matrix_save_dir), gossip_train_text_matrix)
     np.save('{}/gossip_train_text_embed'.format(matrix_save_dir), gossip_train_embeddings)
     np.save('{}/gossip_train_image_embed'.format(matrix_save_dir), gossip_train_image_matrix)
