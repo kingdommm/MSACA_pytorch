@@ -6,8 +6,8 @@ This repository contains code necessary to run the MSACA. MSACA is a multimodal 
 
 ## Dataset
 The meta-data of the Weibo and GossipCop datasets used in our experiments are available in their papers.
-- Multimodal Fusion with Recurrent Neural Networks for Rumor Detection on Microblogs [论文地址](https://dl.acm.org/doi/10.1145/3123266.3123454)
-- Fakenewsnet: A data repository with news content, social context, and spatiotemporal information for studying fake news on social media [项目地址](https://github.com/KaiDMML/FakeNewsNet)
+- Multimodal Fusion with Recurrent Neural Networks for Rumor Detection on Microblogs [Paper URL](https://dl.acm.org/doi/10.1145/3123266.3123454)
+- Fakenewsnet: A data repository with news content, social context, and spatiotemporal information for studying fake news on social media [Project URL](https://github.com/KaiDMML/FakeNewsNet)
 
 ## Running code 
 The `train.py` is the main file for running the code.
