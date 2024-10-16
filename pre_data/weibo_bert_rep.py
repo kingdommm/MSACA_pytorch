@@ -1,7 +1,3 @@
-# -*- coding: utf-8 -*-
-# @Author: kingdommm
-# @Time  : 2023/7/19 9:43
-
 import numpy as np
 import torch
 import tqdm
