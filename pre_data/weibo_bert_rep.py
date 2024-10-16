@@ -34,7 +34,6 @@ def get_weibo_matrix(data_type, tokenizer):
         one_rumor = rumor_content[idx].strip()
         if one_rumor:
             images = rumor_content[idx-1].split('|')
-            corpus_dir = '/home/ubuntu2204/Desktop/My_Fake_News_'
             for image in images:
                 img = image.split('/')[-1].split('.')[0]
                 if img in all_img_embed:
