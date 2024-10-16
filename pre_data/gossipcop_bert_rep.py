@@ -7,7 +7,7 @@ from transformers import BertTokenizer, BertConfig
 from transformers import BertModel
 
 seq_len = 512
-MODEL_PATH = '/home/ubuntu2204/Desktop/My_Fake_News_Detection/bert_base_uncased'
+MODEL_PATH = '/bert_base_uncased'
 
 tokenizer = BertTokenizer.from_pretrained(MODEL_PATH)
 model_config = BertConfig.from_pretrained(MODEL_PATH)
