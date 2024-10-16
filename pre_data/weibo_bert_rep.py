@@ -25,7 +25,7 @@ bert_model = BertModel.from_pretrained(MODEL_PATH, config=model_config)
 
 def get_weibo_matrix(data_type, tokenizer):
     all_img_embed = pkl.load(
-        open(r'/home/ubuntu2204/Desktop/My_Fake_News_Detection/MM17-WeiboRumorSet/img_emb_resnet34.pkl', 'rb'))
+        open(r'/XXX/img_emb_resnet34.pkl', 'rb'))
     rumor_content = open('{}/{}_rumor.txt'.format(corpus_dir, data_type)).readlines()
     nonrumor_content = open('{}/{}_nonrumor.txt'.format(corpus_dir, data_type)).readlines()
 
